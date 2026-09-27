@@ -5,5 +5,6 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: process.argv[2] === "build" ? "/social-app/" : "/",
+  // base: process.argv[2] === "build" ? "/social-app/" : "/",
+  //base: <command /> === "build" ? "/social-app/" : "/",
 });
